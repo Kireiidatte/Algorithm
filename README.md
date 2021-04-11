@@ -1,2 +1,2 @@
-# Programmers-Algorithm
-프로그래머스 레벨 1,2,3,4 풀이
+# Algorithm
+하루에 한 문제씩 풀기
