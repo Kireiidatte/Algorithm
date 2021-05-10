@@ -9,6 +9,5 @@ def solution(n):
             if tmp == n:
                 count += 1
                 break
-           
     
     return count + 1
