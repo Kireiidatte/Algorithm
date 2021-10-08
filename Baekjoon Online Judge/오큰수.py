@@ -1,0 +1,15 @@
+def largestRight(N, A):
+    answer = [-1] * N
+    stack = []
+    stack.append(0)
+    
+    for i in range(1, N):
+        while stack and A[stack[-1]] < A[i]:
+            answer[stack.pop()] = A[i]
+        stack.append(i)
+    
+    print(*answer)
+
+N = int(input())
+A = list(map(int, input().split()))
+largestRight(N, A)
