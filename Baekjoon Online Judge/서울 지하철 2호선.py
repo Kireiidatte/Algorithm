@@ -23,7 +23,7 @@ def dfs(start, cur, cnt):
     visited[cur] = True
     for i in mat[cur]:
         if not visited[i]:
-            dfs(start, i, cnt+1):
+            dfs(start, i, cnt+1)
         elif i == start and cnt >= 2:
             dfs(start, i, cnt)
 
