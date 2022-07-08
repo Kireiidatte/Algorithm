@@ -10,5 +10,3 @@ def dfs(vertex):
     for i in range(1, N + 1):
         if not visit_list[i] and matrix[V][i]:
             dfs(i)
-
-
